@@ -1,0 +1,172 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#main-header{
+    height: 80px;
+    background-color: #9aced4;
+    padding: 15px 50px;
+    box-sizing: border-box;
+}
+
+#logo-container{
+    display: inline-block;
+    float: left;
+}
+
+#logo-container h1{
+    float: left;
+    text-indent: -9999px;
+}
+
+#logo-container img{
+    width: 50px;
+}
+
+#link-container {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+}
+
+#link-container ul > li{
+    display: inline-block;
+}
+
+#link-container ul > li > a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+#hero-section {
+    height: 500px;
+    background-image: url('./../images/park.jpg');
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+#hero-section h1{
+    /* width: 50%;
+    margin: 0 auto; */
+    font-size: 36px;
+    text-align: center;
+}
+
+#hero-img-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #52898f;
+    margin: 30px auto;
+}
+
+#hero-img-container img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.square-text {
+    background-color: #fff;
+    width: 120px;
+    border: 2px solid #52898f;
+    color: #52898f;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.3em;
+    margin: 20px auto;
+    transition: .5s ease all;
+}
+
+button.square-text:hover{
+    box-shadow: 3px 0px 6px 1px #ccc;
+    cursor: pointer;
+}
+
+#grid-container {
+    width: calc(100% - 120px);
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+}
+
+
+#grid-container .card {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#grid-container .card h4{
+    width: 400px;
+    color: #52898f;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+#grid-container .card .img-container{
+    width: 200px;
+    margin: 20px auto;
+}
+
+#grid-container .card .img-container img{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #52898f;
+}
+
+#grid-container .card p{
+    text-align: justify;
+}
+
+footer {
+    background-color: #9aced4;
+    color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#icon-container{
+    display: inline-block;
+    margin: 20px 0 15px;
+}
+
+footer ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    width: 32px;
+}
+
+footer ul li:last-child{
+    margin-right: 0;
+}
+
+footer ul li img{
+    width: 100%;
+}
+
+footer a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
